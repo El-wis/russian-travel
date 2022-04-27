@@ -1,0 +1,17 @@
+.header__lang-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__lang-links li:first-child .header__lang-link {
+    margin-right: 18px;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .header__lang-link {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    }
+}
