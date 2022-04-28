@@ -1,0 +1,35 @@
+.cover__overlay-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    min-height: 740px;
+    margin: 0 auto;
+    background: rgba(42, 44, 47, .3);
+    background-size: cover;
+    text-decoration: none;
+}
+
+.cover__overlay-link:hover {
+    background: rgba(42, 44, 47, .8); 
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .cover__overlay-link {
+        min-height: 640px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .cover__overlay-link {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__overlay-link {
+        min-height: 200px;
+    } 
+}
