@@ -1,3 +1,4 @@
 # Проект: Путешествие по России  
 Адаптивная верстка - лендинг о путешествии по России  
-[https://el-wis.github.io/russian-travel/]
+[https://el-wis.github.io/russian-travel/]  
+Планы по улучшению - добавить в прект немного js.
